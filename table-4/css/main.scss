@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , rgb(0, 255, 145) , rgb(90, 233, 233));
+    text-transform: uppercase;
+}
+table{
+    width: 80%;
+    margin: 50px auto;
+    color: white;
+    font-family: cursive;
+    text-align: start;
+}
+thead{
+    text-align: start;
+    background-color:  #65d0b5d3;
+    
+    tr{
+        text-align: left;
+        
+        th{
+            position: sticky;
+            top: 0;
+            background-color:  #65d0b5d3;
+            padding: 10px 5px;
+            border-color:  #65d0b5d3;
+        }
+        
+    }
+}
+
+tbody{
+    max-height: 300px;
+    overflow: auto;
+}
+tbody > tr td{
+    padding: 10px 5px;
+    border-collapse: collapse;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.501);
+}
+tbody tr td:nth-child(1) {
+    border-left:1.5px solid rgba(255, 255, 255, 0.501) ;
+
+}
